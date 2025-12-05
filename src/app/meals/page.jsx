@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const MealPage = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const MealPage = async ({ searchParams }) => {
+  return <div>this is meal page</div>;
+};
 
-export default MealPage
+export default MealPage;
